@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<PAGE id='blank'><GENSCRIPT id='script'><![CDATA[var oWin=window;
+ var oDoc = window.document;
+oWin.strCurrUrl='https://campus.ps.rit.edu/psp/RITXCPRD_15/EMPLOYEE/SA/c/SSR_STUDENT_FL.SSR_CRSE_INFO_FL.GBL';
+oWin.strReqURL='';
+bPTActEnterKey = true;
+]]></GENSCRIPT><GENSCRIPT id='onloadScript'><![CDATA[
+ g_bAccessibilityMode=false;
+var actn='';
+var oWin=window;
+var oDoc=document;
+actn=oDoc.win15.ICAction.value;
+oDoc.win15.ICAction.value='None';
+oDoc.win15.ICResubmit.value='0';
+oDoc.win15.ICPanelHelpUrl.value='http://www.oracle.com/pls/topic/lookup?id=&ctx=pt860latest&ctx=cs92latest';
+if (isFModeLayout()) {oDoc.win15.ICDNDSrc.value='';
+oDoc.win15.ICPanelName.value='';
+}oWin.nResubmit='0';
+oDoc.win15.ICStateNum.value=1;initVars_win15();
+oDoc.win15.ICFocus.value='';
+setupTimeout2();
+if (oDoc.win15.ICTypeAheadID) oDoc.win15.ICTypeAheadID.value='';
+ptEvent.add(window,'scroll',positionWAIT_win15);
+if (typeof(ptLongEditCounter) != 'undefined' && ptLongEditCounter != null)
+   ptLongEditCounter.onLoadLongEditCounter();
+objToBeFocus = null;
+if (bPTDrag) CancelDragAccessible();
+ bPTDrag = false;
+if (typeof oWin == 'undefined') setEventHandlers_win15('ICFirstAnchor_win15', 'ICLastAnchor_win15', false);
+ else
+ oWin.setEventHandlers_win15('ICFirstAnchor_win15', 'ICLastAnchor_win15', false);
+if (top.window.isFModeLayout() && (typeof top.window.initHelp == 'function')) top.window.initHelp();
+postUrl_win15='https://campus.ps.rit.edu/psc/RITXCPRD_15/EMPLOYEE/SA/c/SSR_STUDENT_FL.SSR_CRSE_INFO_FL.GBL';
+fixUpBackButton();
+if (typeof(initScrolls0) != 'undefined' && initScrolls0 != null) initScrolls0(true);
+top.window.SetPrevNext('PT_SIDE$content');
+updateBrowserTitle('');
+try{SetMDComponentTitle();}catch(e){}
+setFocus_win15('SSR_CRSE_INFO_V_INSTITUTION',-1);
+ptLoadingStatus_empty(0);
+setupTimeout2();
+processing_win15(0,3000);]]></GENSCRIPT>
+<FIELD id='win15divPSHIDDENFIELDS'><![CDATA[<input type='hidden' name='ICType' id='ICType' value='Panel' />
+<input type='hidden' name='ICElementNum' id='ICElementNum' value='15' />
+<input type='hidden' name='ICStateNum' id='ICStateNum' value='1' />
+<input type='hidden' name='ICAction' id='ICAction' value='None' />
+<input type='hidden' name='ICModelCancel' id='ICModelCancel' value='0' />
+<input type='hidden' name='ICXPos' id='ICXPos' value='0' />
+<input type='hidden' name='ICYPos' id='ICYPos' value='0' />
+<input type='hidden' name='ResponsetoDiffFrame' id='ResponsetoDiffFrame' value='-1' />
+<input type='hidden' name='TargetFrameName' id='TargetFrameName' value='None' />
+<input type='hidden' name='FacetPath' id='FacetPath' value='None' />
+<input type='hidden' name='ICFocus' id='ICFocus' value='' />
+<input type='hidden' name='ICSaveWarningFilter' id='ICSaveWarningFilter' value='0' />
+<input type='hidden' name='ICChanged' id='ICChanged' value='-1' />
+<input type='hidden' name='ICSkipPending' id='ICSkipPending' value='0' />
+<input type='hidden' name='ICAutoSave' id='ICAutoSave' value='0' />
+<input type='hidden' name='ICResubmit' id='ICResubmit' value='0' />
+<input type='hidden' name='ICSID' id='ICSID' value='7dXV6WlZCDyYy7ucMNJK+VBB3KWzbchIx+zSddYea6M=' />
+<input type='hidden' name='ICActionPrompt' id='ICActionPrompt' value='false' />
+<input type='hidden' name='ICTypeAheadID' id='ICTypeAheadID' value='' />
+<input type='hidden' name='ICBcDomData' id='ICBcDomData' value='' />
+<input type='hidden' name='ICDNDSrc' id='ICDNDSrc' value='' />
+<input type='hidden' name='ICPanelHelpUrl' id='ICPanelHelpUrl' value='http://www.oracle.com/pls/topic/lookup?id=&amp;ctx=pt860latest&amp;ctx=cs92latest' />
+<input type='hidden' name='ICPanelName' id='ICPanelName' value='' />
+<input type='hidden' name='ICPanelControlStyle' id='ICPanelControlStyle' value=' pst_side1-fixed pst_panel-mode ' />
+<input type='hidden' name='ICFind' id='ICFind' value='' />
+<input type='hidden' name='ICAddCount' id='ICAddCount' value='' />
+<input type='hidden' name='ICAppClsData' id='ICAppClsData' value='' />
+]]></FIELD>
+<FIELD id='win15divPSPANELTABS' class='ps_box-pagetabs'><![CDATA[<h1 id='app_label' style='display: none; '>Course Information</h1>
+<div id='win15divSrchCriteria'><table role='presentation'><tbody><tr><td id='PSCENTER'><table  role='presentation'><tbody><tr><td><a id='expandSrchCriteria' role='button' class='PTCOLLAPSE_ARROW' href="javascript:ptCommonObj2.expandSearchCriteria(document.win15, false);" tabindex='9' aria-expanded='true'  aria-describedby='PSSRCHINSTRUCTIONS keywordsrchhelp' autofocus> <img src='/cs/RITXCPRD/cache/PT_TRANS_PIX_1.png' class='PTCOLLAPSE' border='0' alt='Collapse Search Criteria group box' title='Collapse Search Criteria group box' /></a><a id='collapseSrchCriteria' role='button' class='PTEXPAND_ARROW' style='display:none;'href="javascript:ptCommonObj2.expandSearchCriteria(document.win15, true);" tabindex='10' aria-expanded='false'> <img src='/cs/RITXCPRD/cache/PT_TRANS_PIX_1.png' class='PTEXPAND' border='0' alt='Expand Search Criteria group box' title='Expand Search Criteria group box' /></a><span >&nbsp;Search Criteria&nbsp;</span></h2></td></tr></tbody></table></td></tr></tbody></table></div>]]></FIELD>
+<FIELD id='PT_SIDE_BOTTOM'><![CDATA[]]></FIELD>
+<FIELD id='divPAGECONTAINER_TGT' class='ps_pagecontainer'><![CDATA[<DIV class='' id='win15divSEARCHABOVE'></DIV>
+<DIV class='' id='win15divSEARCHADV'><table id='win15tblSrchFlds' cellpadding='0' cellspacing='2' summary='' role='presentation'>
+<tr><td valign='top'><table cellpadding='0' cellspacing='2'  summary='' role='presentation'>
+<DIV class='ps_pspagecontainer' id='win15divPSPAGECONTAINER'>
+<DIV  class='ps_box-label' id='win15divSSR_CRSE_INFO_V_INSTITUTIONlbl'><label for='SSR_CRSE_INFO_V_INSTITUTION' id='SSR_CRSE_INFO_V_INSTITUTION_LBL' class='ps-label'>Academic Institution</label></DIV><DIV    id='win15divSSR_CRSE_INFO_V_INSTITUTION' class='ps_box-edit'><DIV  id='win15divSSR_CRSE_INFO_V_INSTITUTIONctrl' class='ps_box-control'><input type='text' id='SSR_CRSE_INFO_V_INSTITUTION' class='ps-edit'   value="RIT01" maxlength='5' onclick='javascript:cancelBubble(event);'  />
+</DIV></DIV><DIV  class='ps_box-label' id='win15divSSR_CRSE_INFO_V_ACAD_CAREERlbl'><label for='SSR_CRSE_INFO_V_ACAD_CAREER' id='SSR_CRSE_INFO_V_ACAD_CAREER_LBL' class='ps-label'>Academic Career</label></DIV><DIV    class='ps_box-dropdown' id='win15divSSR_CRSE_INFO_V_ACAD_CAREER'><DIV  class='ps_box-control' id='win15divSSR_CRSE_INFO_V_ACAD_CAREERctrl'><select id='SSR_CRSE_INFO_V_ACAD_CAREER' class='ps-dropdown'  size='1' onclick='javascript:cancelBubble(event);' >
+<option value="">&nbsp; </option>
+<option value="CNED">Continuing Education</option>
+<option value="GRAD">Graduate</option>
+<option value="UGRD" selected='selected'>Undergraduate</option>
+</select></DIV>
+</DIV><DIV  class='ps_box-label' id='win15divSSR_CRSE_INFO_V_STRMlbl'><label for='SSR_CRSE_INFO_V_STRM' id='SSR_CRSE_INFO_V_STRM_LBL' class='ps-label'>Term</label></DIV><DIV    id='win15divSSR_CRSE_INFO_V_STRM' class='ps_box-edit'><DIV  id='win15divSSR_CRSE_INFO_V_STRMctrl' class='ps_box-control'><input type='text' id='SSR_CRSE_INFO_V_STRM' class='ps-edit'   value="2245" maxlength='4' onclick='javascript:cancelBubble(event);'  />
+</DIV></DIV><DIV  class='ps_box-label' id='win15divSSR_CRSE_INFO_V_CRSE_IDlbl'><label for='SSR_CRSE_INFO_V_CRSE_ID' id='SSR_CRSE_INFO_V_CRSE_ID_LBL' class='ps-label'>Course ID</label></DIV><DIV    id='win15divSSR_CRSE_INFO_V_CRSE_ID' class='ps_box-edit'><DIV  id='win15divSSR_CRSE_INFO_V_CRSE_IDctrl' class='ps_box-control'><input type='text' id='SSR_CRSE_INFO_V_CRSE_ID' class='ps-edit'   value="356187" maxlength='6' onclick='javascript:cancelBubble(event);'  />
+</DIV></DIV><DIV  class='ps_box-label' id='win15divSSR_CRSE_INFO_V_CRSE_OFFER_NBRlbl'><label for='SSR_CRSE_INFO_V_CRSE_OFFER_NBR' id='SSR_CRSE_INFO_V_CRSE_OFFER_NBR_LBL' class='ps-label'>Course Offering Nbr</label></DIV><DIV    id='win15divSSR_CRSE_INFO_V_CRSE_OFFER_NBR' class='ps_box-edit psc_num'><DIV  id='win15divSSR_CRSE_INFO_V_CRSE_OFFER_NBRctrl' class='ps_box-control'><input type='text' id='SSR_CRSE_INFO_V_CRSE_OFFER_NBR' class='ps-edit'   value="1" maxlength='2' onclick='javascript:cancelBubble(event);'  />
+</DIV></DIV></DIV></table>
+</td></tr></table>
+</DIV>
+<DIV class='ps_toolbar_mod' id='win15divSEARCHBELOW'><label for='#ICMaxRows'><span id='PSSRCHINSTRUCTIONS' >Limit the number of results to (up to 300):&nbsp;</span></label>
+<input type='text' name='#ICMaxRows' id='#ICMaxRows'style="width:36px; " maxlength='10' value='300' tabindex='23' /><br/><br /><a name='#ICBasicSearch'href="javascript: submitAction_win15(document.win15,'#ICBasicSearch');" tabindex='24'>Basic Search</a>
+<a name='#ICSaveSearch'href="javascript: submitAction_win15(document.win15,'#ICSaveSearch');" tabindex='25'><img src='/cs/RITXCPRD/cache/PT_TRANS_PIX_1.png' border='0' hspace='5' class='PTSAVESEARCH' align='middle' alt='' />Save Search Criteria</a>
+</DIV>
+<DIV class='ps_box-searchresultcontainer' id='win15divSEARCHRESULT'><br><br><h2 style='width:300px;' id='PSSRCHINSTRUCTIONS' >No matching values were found.</h2></DIV>
+]]></FIELD>
+<FIELD id='PT_SIDE2'><![CDATA[]]></FIELD>
+<FIELD id='PT_FOOTER'><![CDATA[]]></FIELD>
+<SYSVAR id='sysvar'><![CDATA[bMDTargetStart=true;
+bMDTarget=true;
+if (typeof(setPSTouchHandlerDoc) != 'undefined' && setPSTouchHandlerDoc != null) setPSTouchHandlerDoc ();
+nMaxSavedStates=2;
+bSearchDialog_empty =false;
+sHistURL="https://campus.ps.rit.edu/psc/RITXCPRD_15/EMPLOYEE/SA/c/SSR_STUDENT_FL.SSR_CRSE_INFO_FL.GBL?Page=SSR_CRSE_INFO_FL&Action=U&ACAD_CAREER=UGRD&CRSE_ID=356187&CRSE_OFFER_NBR=1&INSTITUTION=RIT01&STRM=2245&ICAJAX=1&ICMDTarget=start&ICPanelControlStyle=+pst_side1-fixed+pst_panel-mode+";
+bCloseModal = false;
+bICList = false;
+bHtml5Doc = true;
+bClearBackState=false;
+bPageTransfered=false;
+bTransferAnimate=false;
+bCleanHtml = true;
+bDefer = false;
+document.hiddenFldArr_win15 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICModelCancel','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','ICFocus','ICSaveWarningFilter','ICChanged','ICSkipPending','ICAutoSave','ICResubmit','ICSID','ICActionPrompt','ICTypeAheadID','ICBcDomData','ICDNDSrc','ICPanelHelpUrl','ICPanelName','ICPanelControlStyle','ICFind','ICAddCount','ICAppClsData');
+document.chgFldArr_win15 = new Array();
+bCDATA = false;
+bAccessibleLayout = false;
+bGenDomInfo = false;
+]]></SYSVAR></PAGE>
